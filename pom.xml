@@ -13,6 +13,15 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/org.eclipse.jdt/core -->
+		<dependency>
+			<groupId>org.eclipse.jdt</groupId>
+			<artifactId>core</artifactId>
+			<version>3.3.0-v_771</version>
+		</dependency>
+
+
 		<!-- </dependency> -->
 		<!-- https://mvnrepository.com/artifact/fr.inria.gforge.spoon/spoon-core -->
 		<dependency>
@@ -60,6 +69,14 @@
 			<artifactId>jcommander</artifactId>
 			<version>1.72</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/guru.nidi/graphviz-java -->
+		<dependency>
+			<groupId>guru.nidi</groupId>
+			<artifactId>graphviz-java</artifactId>
+			<version>0.17.0</version>
+		</dependency>
+
 
 	</dependencies>
 

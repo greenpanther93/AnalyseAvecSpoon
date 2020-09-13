@@ -10,7 +10,7 @@ import spoon.reflect.declaration.CtMethod;
 import spoon.reflect.declaration.CtType;
 import spoon.reflect.visitor.filter.TypeFilter;
 
-public class Main {
+public class SpoonMain {
 
 	public static void main(String[] args) {
 		
@@ -52,6 +52,8 @@ public class Main {
 		for(CtMethod method : methodList) {
 			System.out.println("method: " + method.getSimpleName());
 		}
+		
+		
 		
 	}
 }
