@@ -15,6 +15,7 @@
 	<dependencies>
 
 		<!-- https://mvnrepository.com/artifact/org.eclipse.jdt/core -->
+		<!-- Uncomment when working with JDT -->
 		<!-- <dependency>
 			<groupId>org.eclipse.jdt</groupId>
 			<artifactId>core</artifactId>
@@ -22,8 +23,7 @@
 		</dependency> -->
 
 
-		<!-- </dependency> -->
-		<!-- https://mvnrepository.com/artifact/fr.inria.gforge.spoon/spoon-core -->
+		<!-- Uncomment when working with Spoon -->
 		<dependency>
 			<groupId>fr.inria.gforge.spoon</groupId>
 			<artifactId>spoon-core</artifactId>
